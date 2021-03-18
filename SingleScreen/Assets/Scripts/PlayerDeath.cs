@@ -8,6 +8,7 @@ public class PlayerDeath : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+         
             Destroy(gameObject);
             LevelManager.instance.Respawn();
         }
