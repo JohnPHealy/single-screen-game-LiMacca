@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Cinemachine;
 
 public class LevelManager : MonoBehaviour
@@ -19,7 +20,6 @@ public class LevelManager : MonoBehaviour
 
     public void Respawn()
     {
-        GameObject player = Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
-        cam.Follow = player.transform;
+        SceneManager.LoadScene("Game");
     }
 }
