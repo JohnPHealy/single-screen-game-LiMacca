@@ -7,6 +7,7 @@ public class Character : MonoBehaviour
     public float MovementSpeed = 1;
     public float JumpForce = 1;
     private Rigidbody2D body;
+
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();

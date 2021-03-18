@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 8651773199634288644}
   - component: {fileID: 8651773199634288643}
   - component: {fileID: 8651773199634288642}
+  - component: {fileID: -4890242295148025256}
+  - component: {fileID: -5732387615313862613}
   m_Layer: 0
-  m_Name: New Prefab
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -131,3 +133,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-4890242295148025256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665034256036412466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716e7aa2d7d34fe4b84fa1a723ef8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovementSpeed: 3
+  JumpForce: 7
+--- !u!114 &-5732387615313862613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665034256036412466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b80eabc96ab1ea49a8381e729134483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
